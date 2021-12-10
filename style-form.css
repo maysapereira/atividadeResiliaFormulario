@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');			
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url("https://i.imgur.com/rpWKvq8.png");
+}
+
+header {
+    background: black;
+    padding: 20px;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.titulo1 {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.descricao {
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    background: black;
+    padding: 10px;
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    background:white;
+    margin: 40px 0;
+    border: black;
+    border-radius: 10px;
+    width: 60%;
+    padding: 25px 25px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.origem {
+    padding: 4px 0px;
+}
+
+.enviar {
+    width: 56%;
+    padding: 15px;
+    background: #FFD000;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: white;
+    color: #FFD000;
+    border: #FFD000;
+    border-radius: 10px;
+    transform: scale(1.2);
+}
+
